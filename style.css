@@ -1,0 +1,71 @@
+html, body {
+    font-family: Sans-Serif;
+    scrollbar-width: none !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.content-title {
+	text-align: center;
+	font-size: 1.25em;
+	margin-bottom: 1em;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-input {
+    cursor: pointer;
+    display: flex;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+
+.option-title {
+    line-height: 24px;
+    padding-right: 5px;
+}
+
+.option-input input[type=number] {
+	border: 1px solid rgb(182, 182, 179);
+	padding-left: 3px;
+}
+
+#popup-content {
+    overflow: hidden;
+}
+
+#error-content {
+	padding-top: 5px;
+}
+
+#error-leader {
+	color: red;
+}
+
+#reset-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+#reset-button {
+    border: none;
+    border-radius: 2px;
+    padding: 2px 6px;
+    font-size: 1.1em;
+    color: black;
+}
+
+#reset-button:hover {
+    background-color: #C9C9C9;
+}

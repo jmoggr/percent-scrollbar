@@ -1,0 +1,37 @@
+div#percent-scrollbar-display {
+    font-family: "Dejavu Sans";
+    color: white;
+    text-shadow: #000 0px 0px 2px;
+    -webkit-font-smoothing: antialiased;
+
+    line-height: initial;
+    text-align: right;
+    pointer-events: none;
+}
+
+div#percent-scrollbar-wrapper {
+    z-index: 10001;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+div#percent-scrollbar-display.hidden {
+    display: none;
+}
+
+div#percent-scrollbar-placeholder {
+    position: relative;
+    top: -1.5em;
+	min-height: 1.5em;
+	min-width: 3em;
+}
+
+div#percent-scrollbar-wrapper:hover > div#percent-scrollbar-display {
+    opacity: 0;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none !important;
+}

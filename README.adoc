@@ -1,0 +1,7 @@
+Percent Scrollbar
+=================
+
+Inspired by a long ago deprecated firefox addon.
+
+Code based loosely on
+https://github.com/iaarchiver/MinimalScrollbar
