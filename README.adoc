@@ -1,6 +1,8 @@
 Percent Scrollbar
 =================
 
+Reclaim some horizontal space by hiding the scrollbar and showing the same information (amount scrolled) in a more meaningful way.
+
 Inspired by a long ago deprecated firefox addon.
 
 Code based loosely on
